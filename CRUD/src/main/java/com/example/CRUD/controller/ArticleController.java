@@ -15,7 +15,8 @@ public class ArticleController {
 
     @PostMapping("/articles/create")
     public String createArticle(ArticleForm articleForm) {
-        System.out.println(articleForm.toString());
+        // Convert DTO to Entity
+        // Store Entity to DB via Repository
         return "";
     }
 }
